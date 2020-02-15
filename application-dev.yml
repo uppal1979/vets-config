@@ -7,7 +7,7 @@ spring:
     name: veterinarian_service
   datasource:
     schema: classpath*:hsqldb/schema.sql
-    data: classpath*:hsqldb/data.sql
+    data: classpath*:hsqldb/data1.sql
     initialization-mode: always
   jpa:
     hibernate:
