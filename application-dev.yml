@@ -6,6 +6,3 @@ spring:
     schema: classpath*:mysqldb/schema.sql
     data: classpath*:mysqldb/data.sql
     initialization-mode: always
-security:
-    route-patterns-to-be-skipped:
-      - /**/*
