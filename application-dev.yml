@@ -6,3 +6,6 @@ spring:
     schema: classpath*:mysqldb/schema.sql
     data: classpath*:mysqldb/data.sql
     initialization-mode: always
+security:
+  basic:
+    enabled: false
