@@ -1,8 +1,8 @@
 spring:
-  datasource:
-    schema: classpath*:hsqldb/schema.sql
-    data: classpath*:hsqldb/data.sql
-    initialization-mode: always
   jpa:
     hibernate:
       ddl-auto: none
+  datasource:
+    schema: classpath*:mysqldb/schema.sql
+    data: classpath*:mysqldb/data.sql
+    initialization-mode: always
