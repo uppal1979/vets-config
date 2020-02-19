@@ -1,7 +1,7 @@
 spring:
   datasource:
-    schema: classpath*:hsqldb/schema.sql
-    data: classpath*:hsqldb/data.sql
+    schema: schema.sql
+    data: data.sql
     initialization-mode: always
   jpa:
     hibernate:
